@@ -1,0 +1,125 @@
+html,body,#root{
+  height: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+  background-color: black;
+}
+#pfp-container{
+  min-height: 510px;
+}
+.bento-square{
+  width: 100%;
+  height: 250px;
+  border-radius: 12px;
+  padding: 4px;
+  /* background-color: red; */
+}
+.content-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.max-container{
+  max-width:1100px;
+  /* 1200 */
+}
+.name-text{
+  font-size: 6.5rem;
+}
+/* div{
+  outline: 2px solid blue;
+} */
+/* .soft-skills{
+  background-color: orange;
+  width: 100%;
+  height: 100px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.temp-height{
+  height: 100vh;
+}
+/* #large{
+  max-height: 300px;
+  object-fit: cover; */
+/* } */
+.website-container{
+  background-color: blue;
+  position: relative;
+}
+.absolute-text{
+  position: absolute;
+  display: flex;
+}
+.skills-container{
+  background-color: rgb(39, 39, 39);
+  border-radius: 12px;
+  height: 70px;
+}
+.contact{
+  font-size: small;
+}
+.certifs-container{
+  height: 50px;
+  background-color: rgb(39, 39, 39);
+  border-radius: 12px;
+}
+textarea{
+  height: 250px;
+}
+.custom-btn{
+  width: 150px;
+}
+.footer-small{
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+}
+.footer{
+  justify-content: space-around;
+}
+.fa{
+  color: white;
+}
+#navbar-header{
+  background-color: black;
+}
+.website-img{
+  object-fit: cover;
+  overflow: hidden;
+}
+.website-img:hover{
+  transition: transform 1s ease-in-out;
+}
+.website-img img:hover{
+  transform: scale(1.05);
+}
+.certificate-logo{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+}
+.certificate-logo img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  
+}
+.certif-text{
+  font-size: 12px;
+}
+.custom-btn{
+  background-color: rgb(0, 0, 0);
+  border-radius: 4px;
+  padding: 4px;
+  height: 45px;
+  text-decoration: none;
+}
+#pfp-img{
+  overflow: hidden;
+  object-fit: contain;
+}
